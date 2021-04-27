@@ -1,0 +1,22 @@
+1. Extraiga el archivo .zip a su servidor web
+
+2. Ejecutar "phpstockdb.sql" para generar las tablas de MySQL y poblar algunos registros
+
+3. Cambie la conexión de base de datos desde el archivo "ewcfg11.php", encontrará este código:
+
+// Base de datos la información de conexión
+define ("EW_CONN_HOST", 'localhost', TRUE);
+define ("EW_CONN_PORT", 3306, TRUE);
+define ("EW_CONN_USER", "sunombredeusuario ', TRUE);
+define ("EW_CONN_PASS", "sucontraseña ', TRUE);
+define ("EW_CONN_DB", "yourdatabase ', TRUE);
+
+y ajustarlo con el tuyo
+
+4. En el caso de inicio de sesión, utilice:
+
+- Nombre de usuario: admin
+- Contraseña: master
+
+5. Si desea ver la demostración en vivo, por favor visite: http://phpstock.ilovephpmaker.com
+
